@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: black;
+}
+
+#videos-container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    color: white;
+    justify-content:space-between;
+    margin-top: 5px;
+    
+    
+}
+
+#thumbnail{
+    border-radius: 30px;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    
+    
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 15% 80%;
+
+}
+
+.aside{
+    
+    color: white;
+    background-color: black;
+    
+    height: 100%;
+    
+    
+}
+
+.video-info{
+    padding: 20px;
+    
+
+}
+
+.channel-avatar img{
+    width:50px;
+    height: 50px;
+    
+}
+
+.upper-aside{
+    margin-top: 15px;
+    
+    border-bottom: 1px solid #282828;
+}
+
+.text{
+    
+    margin-left: 14px;
+    
+}
+
+.inner-upper-aside{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: flex;
+    padding: 10px;
+    
+}
+
+.inner-upper-aside:hover{
+    background-color: #282828;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.video-description{
+    display: flex;
+}
+
+.channel-avatar{
+    margin-top: 20px;
+} nav{
+    margin-top: 2px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+  }
+  .left{
+    display: flex;
+    align-items: center;
+  }
+
+  .middle .input{
+    display: flex;
+    align-items: stretch;
+    width: 80%;
+
+    
+  }
+
+  .middle{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+
+  .middle .input input{
+    border: 1px solid black;
+    width: 100%;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+    
+  }
+
+  .middle .input button{
+    border-radius: 10px;
+    border: none;
+    background-color: #303030;
+    margin-left: 5px;
+  }
+
+  .right{
+    gap:10px;
+    margin-right: 10px;
+    display:flex;
+    align-items: center;
+  }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+  nav {
+    margin-top: 2px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+   }
+  .left{
+    display: flex;
+    align-items: center;
+  }
+
+  .middle .input{
+    display: flex;
+    align-items: stretch;
+    width: 80%;
+
+    
+  }
+
+  .middle{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+
+  .middle .input input{
+    border: 1px solid black;
+    width: 100%;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+    
+  }
+
+  .middle .input button{
+    border-radius: 10px;
+    border: none;
+    background-color: #303030;
+    margin-left: 5px;
+  }
+
+  .right{
+    gap:10px;
+    margin-right: 10px;
+    display:flex;
+    align-items: center;
+  }                                                                                                                                                                                                                                                                          
